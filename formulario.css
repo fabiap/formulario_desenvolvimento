@@ -64,3 +64,26 @@ body{
   font-size: 14px;
   display: none;
 }
+
+/*RESONSIVIDADE*/
+/*mibile first: min*/
+/*desktop first: max*/
+/*para tablet*/
+@media(max-width: 768px){
+    .form-container{
+        padding: 24px 32px;
+    }
+    .erro{
+        display: block;
+    }/*teste*/
+}
+/*para celular*/
+@media(max-width: 480px){
+    .form-container{
+        padding: 24px 32px;
+    }
+    .form-login{
+        color:aquamarine;
+    }/*teste*/
+}
+
