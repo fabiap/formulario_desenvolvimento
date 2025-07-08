@@ -1,0 +1,32 @@
+<!--Fábia Pinheiro de Paula; 3º Ano Matutino Info-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Netflix</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+    <div class="form-container">
+        <form id="form" class="form-login" action="https://jkorpela.fi/cgi-bin/echo.cgi" method="post">
+            
+            <label for="email">email:</label> <!--quando clica no form, foca na caixinha de email, por causa do id-->
+            <input type="email" name="email" id="email" placeholder="E-mail ou telefone">
+            <p id="erroE" class="erro">Digite seu email ou número de telefone</p>
+            
+            <label for="password">senha:</label>
+            <input type="password" name="password" id="password" placeholder="senha">
+            <p id="erroS" class="erro">Digite sua senha</p>
+
+            <button id="form-login-entrar" type="submit">entrar</button>
+            
+            <label class="OU" for="">OU</label>
+        
+            <button class="form-login-codigo" type="button">usar codigo de acesso</button>
+        
+        </form>
+    </div>
+    <script src="formulario.js" defer></script>
+</body>
+</html>

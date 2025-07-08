@@ -1,0 +1,66 @@
+/*metodos http:
+get - pegar
+post - criar
+put - atualizar
+patch - atualizar
+delete - apagar*/
+
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    border: 5px solid black;
+    height: 100vh;
+    font-family: 'Times New Roman', Times, serif;
+}
+.form-container{
+    width: 480px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-sizing: border-box; 
+    color: white;
+    padding: 48px 64px;
+    font-size: 20px;
+    margin: 0 auto;
+}
+.form-login{
+    display: flex;
+    flex-direction: column;
+}
+.form-login input{
+    font-size: 16px;
+    padding: 4px;
+}
+#email{
+    margin-bottom: 10px;
+    border-radius: 2px;
+}
+#password{
+    margin-bottom: 20px;
+    border-radius: 2px;
+}
+.form-login button{
+    padding: 4px 0;
+    color: white;
+    border-radius: 2px;
+}
+#form-login-entrar{
+    background-color: red;
+    border-radius: 2px;
+}
+.OU{
+    margin: 12px 0;
+    text-align: center;
+    color: black;
+}
+.form-login-codigo{
+    background-color: dimgray;
+    border-radius: 2px;
+}
+.erro{
+  color: red;
+  font-size: 14px;
+  display: none;
+}
