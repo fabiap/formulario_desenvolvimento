@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.galeria{
+    border: 1px solid black;
+    width: 640px;/*tamanho fixo, não se adapta, se fosse display flex se adaptaria a tela*/ /*mobile first*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 48px 64px;
+}
+.card{
+    width: 200px;
+    border: 1px solid red;
+    margin-bottom: 24px;
+}
+
+/*respansividade*/
+@media(max-width: 640px){
+    .galeria{
+        width: 360px;
+    }
+}
+@media(max-width: 320px){
+    .galeria{
+        padding: 8px 0;
+    }
+}
+/*fim*/
+
+.galeria-info{
+    border: 1px solid blue;
+    width: 720px;
+    margin-top: 64px;
+    display: flex;
+    padding: 24px;
+}
+.galeria-info img{
+    width: 320px;
+}
+@media(max-width: 720px){
+    .galeria-info{
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+    }
+}
